@@ -69,3 +69,6 @@ jobs:
 
       - name: Build frontend Docker image
         run: docker build -t task-manager-frontend ./frontend
+
+      - name: Build backend Docker image
+        run: docker build -t task-manager-backend ./backend
